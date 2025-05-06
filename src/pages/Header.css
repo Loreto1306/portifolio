@@ -1,0 +1,107 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0f83ff; /* Cor de fundo (escuro) */
+    }
+    
+    /* Cria o hexágono */
+    .hexagon {
+      width: 60px;
+      height: 30px;
+      background-color: #33ffc6; /* Cor do hexágono (verde-claro) */
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .hexagon:before,
+    .hexagon:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+    
+    }
+    
+    .hexagon:before {
+      bottom: 100%;
+      border-bottom: 20.5px solid #33ffc6; /* Cor da parte superior */
+    
+    }
+    
+    .hexagon:after {
+      top: 100%;
+      width: 0;
+      border-top: 20.5px solid #33ffc6; /* Cor da parte inferior */
+      
+    }
+    
+    /* Estilo da letra dentro do hexágono */
+    .letter {
+      font-size: 32px;
+      font-weight: bold;
+      color: #0e1a27; /* Cor da letra (escuro) */
+    }
+  
+    #triangle{
+      animation: dash 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+      transition: 0.5;
+    }
+  
+    #loading{
+      font-size: 13px;
+      animation: blink 2.5s ease-in-out infinite;
+    }
+  
+    #teste{
+      transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+      text-decoration: none;
+    }
+  
+  
+  ::-webkit-scrollbar {
+      width: 10px;
+  } 
+  
+  ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 15px 15px #0a192f;
+      border: solid 5px transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      box-shadow: inset 0 0 15px 15px #6cffc2;
+      border: solid 3px transparent;
+      border-radius:10px;
+  }
+  
+  
+  
+  
+  
+    @keyframes dash {
+      to {
+          stroke-dashoffset: 136;
+      }
+    }
+  
+    @keyframes blink {
+      50%{
+        opacity: 0;
+        filter: blur(2px);
+      }
+  
+      75%{
+        filter:blur(1px);
+      }
+  
+      100%{
+        filter:blur(0px);
+      }
+    }

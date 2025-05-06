@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import {Link} from 'react-router-dom'
+import './App.css'
 
 export default function Home() {
 
@@ -20,12 +19,21 @@ export default function Home() {
                 I'm a full-stack developer spacializing in building exceptional digital experiences. Currently, I'm focused on building modern, simple and needed aplications for engineering projects at 
                 <a href="https://www.genpro.com.br/" target='_blank' className="group text-[#6effbc]  transition-all duration-300 ease-in-out"> <span className="bg-left-bottom mt-2 bg-gradient-to-r from-green-600 to-green-300 bg-[length:0%_1px] bg-no-repeat group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out">GENPRO LTDA</span></a> .
             </div>
-            <div className="mt-12 max-w-[250px] relative">
+            <div className="mt-12 max-w-[250px] relative ">
               <a
                 target="_blank"
                 href="https://github.com/Loreto1306"
                 id="teste"
-                className="hover:-ml-2 p-4 hover:border-[#36cb80] max-w-54 border border-[#36cb80] rounded text-center hover:-translate-y-[5px] hover:-translate-x-[5px] hover:shadow-[rgba(100,255,218,1)_4px_4px_0px_0px] transition-transform duration-300 block"
+                className="hover:-ml-2 p-4 hover:border-[#36cb80] max-w-54 border border-[#36cb80] rounded text-center hover:-translate-y-[5px] hover:-translate-x-[5px] transition-transform duration-300 block"
+                style={{
+                  transition: 'all 0.3s ease',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.boxShadow = 'rgba(100, 255, 218, 1) 4px 4px 0px 0px';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.boxShadow = 'none';
+                }}
               >
                 Check out my projects!
               </a>

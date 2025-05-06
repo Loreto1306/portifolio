@@ -1,4 +1,4 @@
-import './Header.css'
+import './App.css'
 export default function Header(){
     return(
         <>
@@ -31,9 +31,17 @@ export default function Header(){
                 <span className="bg-left-bottom mt-2 bg-gradient-to-r from-green-600 to-green-300 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
                     04.<span className="text-gray-300"> Contact</span></span>
             </a>
-            <a href=""  id="button-resume" className=" p-4 left-4 hover:border-b-[5px] hover:border-t-[1px] hover:border-l-[1px] hover:border-r-[5px] relative border border-[#36cb80] rounded-md">
+            <a
+                href=""
+                id="button-resume"
+                className="p-4 left-4 relative border border-[#36cb80] rounded-md 
+                            hover:border-b-[5px] hover:border-t-[1px] 
+                            hover:border-l-[1px] hover:border-r-[5px] 
+                            transition-all duration-300 ease-in-out"
+                >
                 Resume
             </a>
+
         </div>
     </header>
         </>

@@ -55,9 +55,8 @@ export default function Projects(){
                         </div>
                         <p className="mt-8 font-bold">Projeto 3</p>
                     </div>
-
-                    {/* Card 4 */}
-                    {/*<div className="bg-gray-800 sm:h-0 min-h-72 text-white rounded-lg p-6 shadow-md flex flex-col  h-full">
+                    {/* Card 4 */
+                    /*<div className="bg-gray-800 sm:h-0 min-h-72 text-white rounded-lg p-6 shadow-md flex flex-col  h-full">
                         <div className="flex justify-between items-start">
                             <BsFolder2Open className="w-8 h-8 text-[#36cb80]" />
                             <div className="flex gap-5">

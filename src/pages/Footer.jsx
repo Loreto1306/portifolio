@@ -25,7 +25,6 @@ export default function Footer(){
                 <div className="w-px h-24 bg-white opacity-30 mt-2" />
             </div>
             
-
             {/* Barra lateral direita com email */}
             <div className="hidden lg:flex flex-col fixed  right-[-60px] bottom-0 items-center gap-4">
                 <p className="text-xs  opacity-75 rotate-90 tracking-widest hover:text-[#79ffbb] cursor-pointer transition-colors">

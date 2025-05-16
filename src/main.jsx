@@ -10,8 +10,8 @@ import Footer from './pages/Footer.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
-      <Home />
-      <About />
+      <Home/>
+      <About/>
       <Projects/>
       <Footer/>
   </StrictMode>,

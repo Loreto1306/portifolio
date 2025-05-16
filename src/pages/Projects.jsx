@@ -45,15 +45,15 @@ export default function Projects(){
                         <div className="flex justify-between items-start ">
                             <BsFolder2Open className="w-8 h-8 text-[#36cb80]" />
                             <div className="flex gap-5">
-                            <a href="https://github.com/Loreto1306/blood-reader-web-react" target="_blank">
+                            <a href="https://github.com/Loreto1306/api-navsiworks" target="_blank">
                                 <BsGithub className="w-6 h-6 opacity-50 text-white cursor-pointer hover:opacity-75 transition-colors" />
                             </a>
-                                <a href="https://blood-reader-n15hyd5yl-loreto1306s-projects.vercel.app/" target="_blank">
+                                <a href="https://github.com/Loreto1306/api-navsiworks" target="_blank">
                                     <FiExternalLink className="w-6 h-6 opacity-50  cursor-pointer hover:opacity-75 transition-colors" />
                                 </a>
                             </div>
                         </div>
-                        <p className="mt-8 font-bold">Projeto 3</p>
+                        <p className="mt-8 font-bold">Navisworks API</p>
                     </div>
                     {/* Card 4 */
                     /*<div className="bg-gray-800 sm:h-0 min-h-72 text-white rounded-lg p-6 shadow-md flex flex-col  h-full">

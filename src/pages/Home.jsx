@@ -4,7 +4,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen max-h-[600px] justify-center  flex relative mt-40 sm:mt-20  md:mt-20">
+      <div className="h-screen max-h-[600px] justify-center items-center flex relative">
         <div id="container-profile" style={{width: "-webkit-fill-available"}} className="max-w-[900px] flex flex-wrap flex-col">
             <div className="text-lg pb-4 text-[#36cb80]">
                 <h4>Hi, my name is</h4>

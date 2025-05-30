@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 export default function Projects(){
     return(
         <>
-            <p className="text-xl flex justify-center font-mono">Meus Projetos</p>
+            <p className="mt-48 text-xl flex justify-center font-mono">Meus Projetos</p>
             <div className="w-full min-h-screen flex items-center font-mono justify-center">
                 <div className="grid min-h-32 grid-cols-1 justify-center min-h-32 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1000px] w-full p-4">
                     {/* Card 1 */}
